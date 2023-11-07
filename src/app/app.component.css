@@ -1,0 +1,78 @@
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+h1 {
+    font-size: 3.8rem;
+}
+
+.nombre-sitio {
+    margin-top: 5rem;
+    text-align: center;
+}
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+.cajaFormulario{
+    padding: 1% 5% 0 3%;
+}
+
+.contenedor-navegacion {
+    border-top: .1rem solid #e1e1e1;
+}
+.barraDivisora{
+    border-top: .1rem solid #e1e1e1;
+}
+.nav-principal {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) { 
+    .nav-principal {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+.cajita{
+    margin-top: 4%;
+}
+
+label{
+    color: #037bc0;
+}
+
+button{
+    margin: 4% 0;
+}
+
+.cajaGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tabla{
+    padding-right: 1%;
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
